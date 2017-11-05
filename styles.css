@@ -1,24 +1,34 @@
 body {
-	background-color: #f8f8f8;
+	background-color: #5d63f8;
 	font-size: 80%;
 }
 img {
 	height: 25%;
 	width: 25%;
+	padding: 5px;
+}
+a {
+	font-size: 15px;
 }
 .container {
+	padding-top: 50px;
 	background-color: #f8f8f8;
 }
-#Kenneth {
+/*#Kenneth {
 	float: right;
 }
+*/
 #AboutMe {
-	padding-top: 30px;
-	padding-bottom: 30px;
+	background-color: #5d63f8;
+	height: 600px;
+}
+#myNavBar {
+	
 }
 #Sites {
-	padding-bottom: 30px;
+	height: 600px;
 }
 #ContactMe {
-	padding-bottom: 30px;
+	background-color: #5d63f8;
+	height: 600px;
 }
