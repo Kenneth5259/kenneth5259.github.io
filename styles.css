@@ -1,34 +1,26 @@
-body {
-	background-color: #5d63f8;
-	font-size: 80%;
+@media (min-width: 768px) {
+	.navbar-nav.navbar-center{
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+	}
 }
-img {
-	height: 25%;
-	width: 25%;
-	padding: 5px;
+.column {
+	float: left;
+	width: 33%;
 }
-a {
-	font-size: 15px;
+.row {
+	width: 50%;
 }
-.container {
-	padding-top: 50px;
-	background-color: #f8f8f8;
+.row:after {
+	display: table;
+	clear: both;
 }
-/*#Kenneth {
+.desc{
 	float: right;
 }
-*/
-#AboutMe {
-	background-color: #5d63f8;
-	height: 600px;
-}
-#myNavBar {
-	
-}
-#Sites {
-	height: 600px;
-}
-#ContactMe {
-	background-color: #5d63f8;
-	height: 600px;
+img {
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;	
 }
