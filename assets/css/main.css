@@ -3306,3 +3306,9 @@ input, select, textarea {
 			}
 
 		}
+	#profile {
+		max-width: 480px;
+		max-height: 600px;
+		border-radius: 50% !important;
+
+	}
