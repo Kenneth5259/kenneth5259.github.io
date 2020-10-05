@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* All sidebar styling*/
+.sidebar {
+    flex: 1;
+    background-color: lightgreen;
+    height: 100vh;
+    flex-direction: column;
+}
+.profile {
+    flex: 1;
+    background-color: lightseagreen;
+}
+.profile__name {
+    text-align: center;
+    color: white;
+}
+.navigation {
+    flex: 5;
+    background-color: lightslategray;
+}
+
+
+/* All body Styling*/
+.body {
+    flex: 5;
+    background-color: lightpink;
+}
