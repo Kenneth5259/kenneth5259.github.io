@@ -4,18 +4,37 @@
 		<link rel='icon' href='./images/favicon.png'>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="index.css">
+		<script src="https://kit.fontawesome.com/3ed62d1906.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
 		<div class="container">
 			<div class="sidebar">
-				<div class="profile">
-					<h2 class="profile__name">Kenneth Carroll</h2>
-
+				<div class="sidebar__profile">
+					<h2 class="sidebar__profile__name">Kenneth Carroll</h2>
+					<img class="sidebar__profile__image" src="./images/placeholder_profile.png" alt="Insert Picture Here">
+					<p class="sidebar__profile__bio"> Hello, my name is Kenneth Carroll, please feel free to explore my portfolio</p>
+					<div class="sidebar__profile__socials">
+						<a href="https://linkedin.com/in/kenneth-james-carroll"><div class="sidebar__profile__social"><i class="fab fa-linkedin-in fa-lg font-icon"></i></div></a>
+						<a href=""><div class="sidebar__profile__social"><i class="fab fa-twitter fa-lg font-icon"></i></div></a>
+						<a href=""><div class="sidebar__profile__social"><i class="fab fa-github fa-lg font-icon"></i></div></a>
+					</div>
 				</div>
-				<div class="navigation">
-
+				<hr/>
+				<div class="sidebar__navigation">
+					<span class="sidebar__navigation__flex__container">
+					<ul class="sidebar__navigation__list">
+						<li class="sidebar__navigation__list__item active"><i class="fas fa-user fa-lg sidebar__navigation__list__item__icon"></i>About Me</li>
+						<li class="sidebar__navigation__list__item"><i class="fas fa-laptop-code fa-lg sidebar__navigation__list__item__icon"></i>Portfolio</li>
+						<li class="sidebar__navigation__list__item"><i class="fas fa-briefcase fa-lg sidebar__navigation__list__item__icon"></i>Serivces and Pricing</li>
+						<li class="sidebar__navigation__list__item"><i class="fas fa-file-alt fa-lg sidebar__navigation__list__item__icon"></i>Resume</li>
+						
+					</ul>
+					</span>
+					<span class="sidebar__navigation__flex__container"><button class="sidebar__navigation__contact"><i class="fas fa-paper-plane" style="padding-right: 1rem;"></i>Contact Me</button></span>
 				</div>
+				<hr />
 			</div>
 			<div class="body">
 	
