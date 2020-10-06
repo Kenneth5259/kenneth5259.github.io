@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.df5a74af.chunk.css",
+    "main.js": "/static/js/main.f9972706.chunk.js",
+    "main.js.map": "/static/js/main.f9972706.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4a58ef6b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4a58ef6b.js.map",
+    "static/js/2.e56bfaa7.chunk.js": "/static/js/2.e56bfaa7.chunk.js",
+    "static/js/2.e56bfaa7.chunk.js.map": "/static/js/2.e56bfaa7.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c190e1046fed69f3e7d1dda1f22f7cbc.js": "/precache-manifest.c190e1046fed69f3e7d1dda1f22f7cbc.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.df5a74af.chunk.css.map": "/static/css/main.df5a74af.chunk.css.map",
+    "static/js/2.e56bfaa7.chunk.js.LICENSE.txt": "/static/js/2.e56bfaa7.chunk.js.LICENSE.txt",
+    "static/media/about.jpg": "/static/media/about.ffd1d705.jpg",
+    "static/media/angularjs.svg": "/static/media/angularjs.64a3fd75.svg",
+    "static/media/c++.svg": "/static/media/c++.fa6891f4.svg",
+    "static/media/c.svg": "/static/media/c.580ee73e.svg",
+    "static/media/javascript.svg": "/static/media/javascript.bb5f7ebd.svg",
+    "static/media/mac-os.svg": "/static/media/mac-os.7456989b.svg",
+    "static/media/nodejs.svg": "/static/media/nodejs.e4ddbe1a.svg",
+    "static/media/profile.jpg": "/static/media/profile.d774197a.jpg",
+    "static/media/python.svg": "/static/media/python.4948e676.svg",
+    "static/media/react-native.svg": "/static/media/react-native.a899d525.svg",
+    "static/media/windows-10.svg": "/static/media/windows-10.62724d7d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a58ef6b.js",
+    "static/js/2.e56bfaa7.chunk.js",
+    "static/css/main.df5a74af.chunk.css",
+    "static/js/main.f9972706.chunk.js"
+  ]
+}
