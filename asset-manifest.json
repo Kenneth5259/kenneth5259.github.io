@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.de445d2c.chunk.css",
-    "main.js": "/static/js/main.43f3ce74.chunk.js",
-    "main.js.map": "/static/js/main.43f3ce74.chunk.js.map",
+    "main.css": "/static/css/main.88d04316.chunk.css",
+    "main.js": "/static/js/main.7373dbf8.chunk.js",
+    "main.js.map": "/static/js/main.7373dbf8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4a58ef6b.js",
     "runtime-main.js.map": "/static/js/runtime-main.4a58ef6b.js.map",
     "static/js/2.9e1c9d00.chunk.js": "/static/js/2.9e1c9d00.chunk.js",
     "static/js/2.9e1c9d00.chunk.js.map": "/static/js/2.9e1c9d00.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a01600acdfdd04488b8a9a0ad30eeb76.js": "/precache-manifest.a01600acdfdd04488b8a9a0ad30eeb76.js",
+    "precache-manifest.58594aa853c954e98bebb55299ef9ace.js": "/precache-manifest.58594aa853c954e98bebb55299ef9ace.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.de445d2c.chunk.css.map": "/static/css/main.de445d2c.chunk.css.map",
+    "static/css/main.88d04316.chunk.css.map": "/static/css/main.88d04316.chunk.css.map",
     "static/js/2.9e1c9d00.chunk.js.LICENSE.txt": "/static/js/2.9e1c9d00.chunk.js.LICENSE.txt",
     "static/media/Resume.pdf": "/static/media/Resume.5a88a9a9.pdf",
     "static/media/about.jpg": "/static/media/about.ffd1d705.jpg",
     "static/media/angularjs.svg": "/static/media/angularjs.64a3fd75.svg",
+    "static/media/about.css": "/static/media/background.47c3fbc7.jpg",
     "static/media/c++.svg": "/static/media/c++.fa6891f4.svg",
     "static/media/c.svg": "/static/media/c.580ee73e.svg",
     "static/media/javascript.svg": "/static/media/javascript.bb5f7ebd.svg",
     "static/media/mac-os.svg": "/static/media/mac-os.7456989b.svg",
     "static/media/mean.png": "/static/media/mean.088a178c.png",
     "static/media/nodejs.svg": "/static/media/nodejs.e4ddbe1a.svg",
+    "static/media/portfolio.css": "/static/media/portBackground.619d9fb1.png",
     "static/media/portfolio.png": "/static/media/portfolio.381b9ec2.png",
     "static/media/profile.jpg": "/static/media/profile.d774197a.jpg",
     "static/media/pulsar.jpg": "/static/media/pulsar.570d889a.jpg",
@@ -31,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.4a58ef6b.js",
     "static/js/2.9e1c9d00.chunk.js",
-    "static/css/main.de445d2c.chunk.css",
-    "static/js/main.43f3ce74.chunk.js"
+    "static/css/main.88d04316.chunk.css",
+    "static/js/main.7373dbf8.chunk.js"
   ]
 }
