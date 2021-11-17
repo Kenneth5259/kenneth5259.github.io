@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { LandingComponent } from './landing/landing.component';
+import { ProfileComponent } from './menu/profile/profile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    LandingComponent
+    LandingComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule
