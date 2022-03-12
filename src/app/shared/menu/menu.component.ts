@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
   constructor() {}
+  isVisible = false;
+  arrow = '>';
 
   ngOnInit(): void {}
+
+  toggleVisible(): void {
+    this.isVisible = !this.isVisible;
+    this.arrow = this.isVisible ? '<' : '>';
+  }
 }

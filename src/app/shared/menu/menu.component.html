@@ -1,4 +1,4 @@
-<div class="menu">
+<div class="menu" [ngClass]="{ visible: isVisible }">
   <div class="menu__profile">
     <img
       class="menu__profile__image"
@@ -15,5 +15,9 @@
       <li class="menu__list__item">Articles</li>
       <li class="menu__list__item">Contact</li>
     </ul>
+  </div>
+  <div class="menu__show" (click)="toggleVisible()">
+    <div class="menu__show__hidden"></div>
+    <div class="menu__show__arrow">{{ arrow }}</div>
   </div>
 </div>

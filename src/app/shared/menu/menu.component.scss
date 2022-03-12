@@ -1,5 +1,6 @@
 @import "../../../styles.scss";
 .menu {
+  position: relative;
   // layout
   display: grid;
   grid-template-areas:
@@ -8,6 +9,8 @@
     "socials";
   height: 100vh;
   width: 50vw;
+  max-width: 200px;
+  transform: translateX(-100%);
 
   // colors
   background-color: $primary-color;
@@ -16,8 +19,12 @@
   //text
   text-align: center;
 
+  // transition for display
+  transition: transform ease-in-out 200ms;
+
   // contains image, name and title
   &__profile {
+    z-index: 2;
     grid-area: personal;
     display: flex;
     flex-direction: column;
@@ -39,6 +46,7 @@
 
   // contains areas on the site
   &__list {
+    z-index: 2;
     grid-area: items;
     display: flex;
     height: 100%;
@@ -56,5 +64,46 @@
 
   // contains link to social medias
   &__socials {
+    z-index: 2;
+  }
+
+  // button to show or hide the menu
+  &__show {
+    z-index: 1;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+    top: 50%;
+    right: -2rem;
+    height: 4rem;
+    width: 4rem;
+    font-size: 2rem;
+
+    border-radius: 0 50% 50% 0;
+
+    &__hidden {
+      display: hidden;
+    }
+    &__arrow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $primary-light-color;
+      color: $primary-color;
+      padding-right: 0.5rem;
+    }
+  }
+}
+.visible {
+  transform: translateX(0);
+}
+@media (min-width: 750px) {
+  .menu {
+    transform: translateX(0);
+
+    &__show {
+      display: none;
+    }
   }
 }
