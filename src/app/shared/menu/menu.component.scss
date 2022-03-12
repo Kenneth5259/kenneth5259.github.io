@@ -1,0 +1,60 @@
+@import "../../../styles.scss";
+.menu {
+  // layout
+  display: grid;
+  grid-template-areas:
+    "personal"
+    "items"
+    "socials";
+  height: 100vh;
+  width: 50vw;
+
+  // colors
+  background-color: $primary-color;
+  color: $background-color;
+
+  //text
+  text-align: center;
+
+  // contains image, name and title
+  &__profile {
+    grid-area: personal;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    &__image {
+      display: flex;
+      border-radius: 50%;
+      width: 100%;
+      height: auto;
+    }
+    &__title {
+      font-size: 1.5rem;
+      padding: 0.5rem;
+    }
+    &__subtitle {
+      font-size: 1.25rem;
+    }
+  }
+
+  // contains areas on the site
+  &__list {
+    grid-area: items;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+
+    &__item {
+      font-size: 2rem;
+      margin: 1rem 0;
+      width: 100%;
+    }
+  }
+
+  // contains link to social medias
+  &__socials {
+  }
+}
