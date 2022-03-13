@@ -7,6 +7,7 @@
     "personal"
     "items"
     "socials";
+  grid-template-rows: 2fr 3fr 1fr;
   height: 100vh;
   width: 50vw;
   max-width: 200px;
@@ -24,7 +25,6 @@
 
   // contains image, name and title
   &__profile {
-    z-index: 2;
     grid-area: personal;
     display: flex;
     flex-direction: column;
@@ -46,7 +46,6 @@
 
   // contains areas on the site
   &__list {
-    z-index: 2;
     grid-area: items;
     display: flex;
     height: 100%;
@@ -57,14 +56,37 @@
 
     &__item {
       font-size: 2rem;
-      margin: 1rem 0;
+      padding: 1rem 0;
       width: 100%;
+      transition: background-color ease-in-out 100ms;
+    }
+
+    &__item:hover {
+      background-color: rgba(0, 0, 0, 0.2);
     }
   }
 
   // contains link to social medias
   &__socials {
-    z-index: 2;
+    grid-area: socials;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    &__icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 2rem;
+      width: 2rem;
+      border-radius: 100%;
+      background-color: $primary-light-color;
+      color: $primary-color;
+      transition: background-color ease-in-out 100ms;
+    }
+    &__icon:hover {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
   }
 
   // button to show or hide the menu

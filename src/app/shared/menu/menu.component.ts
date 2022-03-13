@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { IconProp } from '@fortawesome/fontawesome-svg-core';
+import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-menu',
@@ -6,10 +8,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu.component.scss'],
 })
 export class MenuComponent implements OnInit {
-  constructor() {}
+  linkedIn = faLinkedinIn as IconProp;
+  github = faGithub as IconProp;
   isVisible = false;
   arrow = '>';
 
+  constructor() {}
   ngOnInit(): void {}
 
   toggleVisible(): void {
