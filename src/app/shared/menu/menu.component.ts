@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
 import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 
@@ -13,11 +14,16 @@ export class MenuComponent implements OnInit {
   isVisible = false;
   arrow = '>';
 
-  constructor() {}
+  constructor(private router: Router) {}
   ngOnInit(): void {}
 
   toggleVisible(): void {
     this.isVisible = !this.isVisible;
     this.arrow = this.isVisible ? '<' : '>';
+  }
+
+  // Take link and navigate
+  navigateTo(uri: string) {
+    this.router.navigate([uri]);
   }
 }

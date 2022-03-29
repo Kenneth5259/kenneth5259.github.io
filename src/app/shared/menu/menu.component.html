@@ -10,10 +10,14 @@
   </div>
   <div class="menu__items">
     <ul class="menu__list">
-      <li class="menu__list__item">About</li>
-      <li class="menu__list__item">Projects</li>
-      <li class="menu__list__item">Articles</li>
-      <li class="menu__list__item">Contact</li>
+      <li class="menu__list__item" (click)="navigateTo('about')">About</li>
+      <li class="menu__list__item" (click)="navigateTo('projects')">
+        Projects
+      </li>
+      <li class="menu__list__item" (click)="navigateTo('articles')">
+        Articles
+      </li>
+      <li class="menu__list__item" (click)="navigateTo('contact')">Contact</li>
     </ul>
   </div>
   <div class="menu__show" (click)="toggleVisible()">
