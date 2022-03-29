@@ -58,11 +58,23 @@
       font-size: 2rem;
       padding: 1rem 0;
       width: 100%;
-      transition: background-color ease-in-out 100ms;
     }
 
-    &__item:hover {
-      background-color: rgba(0, 0, 0, 0.2);
+    // style the after psuedo-element
+    &__item::after {
+      width: 0;
+      height: 2px;
+      content: "";
+      display: block;
+      background-color: white;
+      margin: auto;
+      // animate the width
+      transition: width ease-in-out 200ms;
+    }
+
+    // increase the width on hover
+    &__item:hover::after {
+      width: 80%;
     }
   }
 
