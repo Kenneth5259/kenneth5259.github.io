@@ -66,7 +66,7 @@
       height: 2px;
       content: "";
       display: block;
-      background-color: white;
+      background-color: $background-color;
       margin: auto;
       // animate the width
       transition: width ease-in-out 200ms;
@@ -92,12 +92,12 @@
       height: 2rem;
       width: 2rem;
       border-radius: 100%;
-      background-color: $primary-light-color;
+      background-color: $background-color;
       color: $primary-color;
       transition: background-color ease-in-out 100ms;
     }
     &__icon:hover {
-      background-color: rgba(0, 0, 0, 0.2);
+      background-color: $primary-light-color;
     }
   }
 

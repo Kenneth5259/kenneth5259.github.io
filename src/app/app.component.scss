@@ -1,4 +1,21 @@
 #app {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-areas: "menu content";
+  grid-template-columns: 0px 1fr;
+}
+#menu {
+  grid-area: menu;
+  z-index: 5;
+}
+#page {
+  grid-area: content;
+}
+
+@media (min-width: 750px) {
+  #app {
+    grid-template-columns: 200px 1fr;
+  }
+  #menu {
+    z-index: 1;
+  }
 }
